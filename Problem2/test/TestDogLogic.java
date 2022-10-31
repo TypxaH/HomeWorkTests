@@ -42,4 +42,12 @@ public class TestDogLogic {
         double expectedWeight = 9.96;
         assertEquals(expectedWeight,actualWeight);
     }
+    @Test
+    public void testWalkOut3() {
+        Dog dog = new Dog("Bulonka","Shugar",5,10);
+        dog.walkOut(9);
+        double actualWeight = dog.getWeightKg();
+        double expectedWeight = 9.96;
+        assertEquals(expectedWeight,actualWeight);
+    }
 }
